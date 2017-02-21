@@ -35,7 +35,6 @@ setup_attrs = dict(
     url='https://github.com/rolando/dask-kafka',
     packages=list(find_packages('src')),
     package_dir={'': 'src'},
-    setup_requires=read_requirements('requirements/setup.txt'),
     install_requires=read_requirements('requirements/install.txt'),
     include_package_data=True,
     license="MIT",
